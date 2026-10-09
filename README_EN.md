@@ -34,13 +34,23 @@ That may be true, but it is broadly applicable and difficult to test.
 
 Fresh Angle aims for something more like:
 
-> You may not avoid difficult tasks; you may avoid tasks whose progress is invisible. You sustain equally difficult work when it produces rapid feedback. If this mechanism is correct, making each step visibly complete should improve your start time. Test it on the next task. If immediate feedback changes nothing, weaken or reject this explanation.
+> Your bottleneck may be tasks whose progress is invisible. You sustain equally difficult work when it produces rapid feedback. If this mechanism is correct, making each step visibly complete should improve your start time. Test it on the next task. If immediate feedback changes nothing, weaken or reject this explanation.
 
 The second answer adds evidence, a hidden mechanism, a new prediction, and a way to test it.
 
 Fresh Angle does not promise a revelation every time. When the evidence is weak, the best answer is simply: **No new insight met the standard this time.**
 
 ## Two ways to use it
+
+### First, establish what evidence the AI can actually access
+
+Fresh Angle is not mind-reading. It needs real records from which to detect patterns across situations. Evidence can come from:
+
+- the current conversation and any prior conversations the platform actually exposes to the AI;
+- chat exports, journals, or notes that you paste or import;
+- at least three concrete episodes, ideally including contrasting outcomes.
+
+In a fresh session with no history, let the AI ask for two or three specific examples before it begins the analysis. Insufficient evidence should start an evidence-gathering step, not end the interaction immediately or invite the AI to infer a personality from a few sentences.
 
 ### 1. Trigger it during a conversation
 
@@ -50,6 +60,7 @@ Use it when a recurring problem, choice, emotional pattern, or contradiction app
 Use Fresh Angle. Do not summarize or paraphrase what I already said.
 Using several real examples I have provided, identify one mechanism I have not explicitly recognized.
 Tell me what else it predicts, how I can test it, and what evidence would falsify it.
+Explain why it is specific to me rather than equally true of a random stranger.
 If there is no strong new insight, say so plainly.
 ```
 
@@ -59,7 +70,7 @@ Once installed, the skill can also help an agent notice when an ordinary convers
 
 If you talk with an AI frequently, your everyday choices, reactions, and contradictions form a valuable longitudinal record.
 
-You can run a scheduled task every two weeks or once a month:
+If your platform allows the AI to access conversations from a specified time range, you can run a scheduled task every two weeks or once a month. Otherwise, paste or import chat logs, journals, or similar material first:
 
 ```text
 Read my visible conversations from the last 30 days and run a longitudinal Fresh Angle review.
@@ -69,7 +80,8 @@ Include:
 1. the concrete evidence;
 2. one testable prediction not used to derive the claim;
 3. one practical action or experiment;
-4. evidence that would weaken or falsify the mechanism.
+4. evidence that would weaken or falsify the mechanism;
+5. why it is not merely a general truth that would fit a random stranger equally well.
 
 Do not repeat my self-description, use generic personality labels, or force an insight to satisfy the schedule.
 If nothing meets the standard, say: “No new insight met the Fresh Angle standard in this period.”
@@ -79,13 +91,16 @@ Daily runs are not recommended. Genuine new patterns need time and new life evid
 
 ## How it resists confident nonsense
 
-Every accepted insight must pass five gates:
+Every accepted insight must pass six gates:
 
 1. **Novelty:** it is not something the user already stated;
 2. **Compression:** one mechanism explains at least three observations;
 3. **Prediction:** it predicts behavior not used to derive the claim;
 4. **Leverage:** it changes a concrete decision or enables a useful experiment;
 5. **Falsifiability:** it names evidence that would weaken or disprove it.
+6. **Specificity:** it explains this user better than it would explain a random stranger.
+
+Apply one final test: **“Would this sound equally true if the user were replaced with a random stranger?”** If yes, it is probably a general truth rather than a personal insight. A common mechanism passes only when its trigger, configuration, cost, or prediction is individualized.
 
 If a candidate fails any gate, it should not be presented as insight.
 
