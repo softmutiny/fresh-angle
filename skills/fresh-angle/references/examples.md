@@ -23,6 +23,19 @@ Why it fails:
 
 Why it fails: the sentence is attractive, but it only restates the user's conclusion.
 
+## Weak: a universal truth presented as personal insight
+
+**Context:** A person prefers receiving several options and often sets an ambitious target before accepting a more moderate result.
+
+**Weak answer:** “You value choice, and you aim high because higher goals improve your eventual result.”
+
+Why it fails:
+
+- Most people prefer having useful choices and understand that ambitious targets can raise outcomes.
+- The answer would sound equally plausible if the user were replaced with a random stranger.
+- It does not identify when this person wants options, when options become burdensome, or what differentiates their use of ambitious targets.
+- Its prediction is merely the original observation repeated into the future.
+
 ## Strong: mechanism, prediction, lever
 
 **Context:** A person happily writes private notes, freezes when choosing a public title, and resumes writing after deciding a post can be revised later.
@@ -35,7 +48,7 @@ Why it fails: the sentence is attractive, but it only restates the user's conclu
 
 **Falsifier:** If equally editable and reversible publication still produces the same freezing, identity commitment is probably not the main mechanism.
 
-Why it passes: it connects three observations, distinguishes competing explanations, predicts an unseen preference, and proposes a mechanism-specific experiment.
+Why it passes: it connects three observations, distinguishes competing explanations, predicts an unseen preference, proposes a mechanism-specific experiment, and identifies the user's distinctive sensitivity to perceived permanence rather than a generic dislike of difficult work.
 
 ## Correct refusal
 
