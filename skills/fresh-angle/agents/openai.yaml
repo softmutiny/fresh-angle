@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fresh Angle · 认知盈余"
+  short_description: "Find novel, testable insights beyond polished echoes"
+  default_prompt: "Use $fresh-angle to find one genuinely new, evidence-grounded insight I can act on."
